@@ -1,0 +1,94 @@
+.header {
+    width: auto;
+    background-color: rgb(142, 247, 113);
+    align-content: center;
+
+}
+
+
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    margin: auto;
+    
+}
+
+.fade {
+    height: 2rem;
+    background-color: rgb(157, 250, 131);
+   
+}
+
+.fade2 {
+    height: 1.5rem;
+    background-color: rgb(164, 254, 139);
+
+}
+
+.fade3 {
+    height: 1rem;
+    background-color: rgb(183, 254, 163);
+
+}
+
+.fade4 {
+    height: 1rem;
+    background-color: rgb(198, 250, 184);
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    background-image: url(../assets/Article-glowsticks.jpg);
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.ikkepush {
+    background-color: rgb(242, 4, 52);
+    font-family: 'Creepster', cursive;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+
+    
+}
+
+.p1 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 2.3rem;
+
+}
+
+.p2 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.p3 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: aliceblue;
+    font-size: 2rem; 
+}
+
+.p4 {
+    color: aliceblue; 
+}

@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/ikkeklikk.css">
-    <script async src="./js/btgg.js"></script>
+    <link rel="stylesheet" href="./css/ikkeklikk.css">  
     <title>Du trykka du</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,15 +18,18 @@
     <header>
         <img src="./assets/header4.png" class="header">
     </header>
-
-        <img src="./assets/Franklogo.png" alt="Frank" id="frank2">
         <h1>Din IP er registrert med ditt navn på lista, på forhånd takk</h1>
-
 <div>
 <a href="./btgg.html"><img src="./assets/90button.png" class="button"></a>
 </div>
 
-<p id="ip"></p>
+<?php
+  $ip = $_SERVER['REMOTE_ADDR'];
+  $file = 'btgg-besok.txt';
+  $current = file_get_contents($file);
+  $current .= $ip . "\n";
+  file_put_contents($file, $current);
+?>
 
     
 </body>

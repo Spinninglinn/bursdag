@@ -1,6 +1,21 @@
+.body2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header {
-    width: auto;
+    width: 100%;
     align-content: center;
 
 }
 
+.button {
+    width: 15rem;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    
+}

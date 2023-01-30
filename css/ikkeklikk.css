@@ -7,8 +7,13 @@
 
 .header {
     width: 100%;
-    align-content: center;
+    align-items: center;
 
+}
+
+#frank2 {
+    max-height: 251px;
+    width: 182px;
 }
 
 .button {
@@ -17,5 +22,5 @@
 
 h1 {
     font-family: 'Creepster', cursive;
-    
+
 }

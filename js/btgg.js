@@ -1,3 +1,7 @@
-document.getElementById("back-button").addEventListener("click", function() {
-    window.history.back();
-});
+fetch('https://api.ipify.org?format=json')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("ip").innerHTML = "IP-adresse: " + data.ip;
+  });
+
+  console.log;

@@ -1,4 +1,3 @@
-const convertButtonElement = document.getElementsByClassName('ikkepush');
-convertButtonElement.addEventListener('click', action);
-
-
+document.getElementById("back-button").addEventListener("click", function() {
+    window.history.back();
+});

@@ -108,7 +108,8 @@ main {
     margin-right: 10rem;
     color: aliceblue;
     font-size: 2rem;
-    font-family: monospace; 
+    font-family: 'Black Ops One', cursive;
+    
 }
 
 .p4 {
@@ -127,4 +128,18 @@ main {
     color: azure;
     padding: 3rem;
 
+}
+
+.p6 {
+    color: aliceblue; 
+    font-size: 3rem;
+    font-family: monospace;
+    padding: 3rem;
+}
+
+.p5 {
+    font-family: 'Creepster', cursive;
+    font-size: 6rem;
+    color: aliceblue;
+    padding: 3rem;
 }

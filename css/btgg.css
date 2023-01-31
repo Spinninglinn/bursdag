@@ -1,145 +1,43 @@
-.header {
-    width: auto;
-    background-color: rgb(142, 247, 113);
-    align-content: center;
-
-}
-
-
-.logo {
+header {
     display: flex;
-    width: 100%;
-    height: auto;
-    align-self: center;
-    margin: auto;
-    
-}
-
-.fade {
-    height: 2rem;
-    background-color: rgb(157, 250, 131);
-   
-}
-
-.fade2 {
-    height: 1.5rem;
-    background-color: rgb(164, 254, 139);
-
-}
-
-.fade3 {
-    height: 1rem;
-    background-color: rgb(183, 254, 163);
-
-}
-
-.fade4 {
-    height: 1rem;
-    background-color: rgb(198, 250, 184);
-}
-
-.topnav {
-    overflow: hidden;
-    background-color:rgb(219, 250, 211);
-
-}
-
-.topnav a {
-    float: left;
-    display: flex;
-    text-align: center;
-    padding: 2rem 1rem;
-    text-decoration-line: overline underline;
-    text-decoration-color: rgb(201, 166, 234);
-    font-family: 'Black Ops One', cursive;
-    font-size: 0.9rem;
-    color: blueviolet;
-
-}
-
-.topnav a:hover {
-    background-color: rgb(236, 242, 66);
+    max-width: ;
+    background-color: rgb(68, 231, 74);
 }
 
 body {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-main {
-    background-image: url(../assets/Article-glowsticks.jpg);
-    align-items: center;
-    display: flex;
-    flex-flow: column nowrap;
-    padding-top: 3rem;
-}
-
-
-.ikkepush {
-    background-color: rgb(242, 4, 52);
-    color: black;
-    text-decoration: none;
-    font-family: 'Creepster', cursive;
-    font-size: 3.5rem;
-    padding: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-    border-radius: 1rem;
-    border: none;
-
+    background-image: 
+    url(../assets/Article-glowsticks.jpg);
     
 }
 
-.flex-container {
+.nav-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.nav-list li {
+    max-width: ;
+}
+
+.top-section {
     color: aliceblue;
     font-family: monospace;
     font-size: 2rem;
-
 }
 
-.p3 {
-    margin-left: 10rem;
-    margin-right: 10rem;
-    color: aliceblue;
-    font-size: 2rem;
-    font-family: 'Black Ops One', cursive;
-    
+.columns {
+    display: flex;
+    gap: 3rem;
+    border: 5rem;
 }
 
-.p4 {
-    color: aliceblue; 
-    font-size: 1rem;
-}
-
-.h1 {
-    font-size: 3rem;
-    color: azure;
-    padding: 3rem;
-}
-
-.h2 {
-    font-size: 3rem;
-    color: azure;
-    padding: 3rem;
-
-}
-
-.p6 {
-    color: aliceblue; 
-    font-size: 3rem;
-    font-family: monospace;
-    padding: 3rem;
-}
-
-.p5 {
-    font-family: 'Creepster', cursive;
-    font-size: 6rem;
-    color: aliceblue;
-    padding: 3rem;
+.columns > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }

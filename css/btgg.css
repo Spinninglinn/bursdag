@@ -3,10 +3,6 @@
     body {
       font-size: 13px;
     }
-    .header {
-        max-width: 219px;
-
-    }
   }
 
 .header {
@@ -14,18 +10,15 @@
     background-color: rgb(142, 247, 113);
     align-content: center;
     align-self: flex-end;
-
-}
-
-
-.logo {
     display: block;
     width: 100%;
     height: auto;
-    align-self: center;
     margin: auto;
-    
+
 }
+
+
+
 
 .fade {
     height: 2rem;

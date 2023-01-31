@@ -66,8 +66,6 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
-    max-width: 1000px;
-    margin: auto;
 }
 
 main {

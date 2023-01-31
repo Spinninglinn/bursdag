@@ -19,10 +19,17 @@
     </header>
         <h1>Din IP er registrert med ditt navn på lista, på forhånd takk</h1>
 <div>
-<a href="./btgg.html"><img src="./assets/90button.png" class="button"></a>
+<a href="./index.html"><img src="./assets/90button.png" class="button"></a>
 </div>
 
+<?php
 
+$visitor_ip = $_SERVER['REMOTE_ADDR'];
+$file = fopen("visitor_ips.txt", "a");
+fwrite($file, $visitor_ip . "\n");
+fclose($file);
+
+?>
 
     
 </body>

@@ -3,6 +3,7 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(165, 42, 91);
 }
 
 .header {
@@ -20,3 +21,4 @@ h1 {
     font-family: 'Creepster', cursive;
 
 }
+

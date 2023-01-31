@@ -1,24 +1,19 @@
-@media only screen and (max-width: 219px) {
-    /* Mobil-spesifikke stilsett her */
-    body {
-      font-size: 13px;
-    }
-  }
-
 .header {
     width: auto;
     background-color: rgb(142, 247, 113);
     align-content: center;
-    align-self: flex-end;
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: auto;
 
 }
 
 
-
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    margin: auto;
+    
+}
 
 .fade {
     height: 2rem;
